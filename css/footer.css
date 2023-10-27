@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+/*------------------------------*/
+/*footer*/
+/*footer revisado muy bien*/
+
+.footer {
+    background-color: #36353b;
+    padding-top: 5rem;
+    padding-left: 2rem;
+  }
+  .contenedor-footer {
+    
+  }
+  .navegacion__foter {
+    display: flex;
+  
+    flex-direction: row;
+    gap: 3rem;
+  
+  }
+  .copyright {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    /* .contenedor-footer{
+    padding-top: 1rem;
+    } */
+    .navegacion__foter {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      row-gap: 1rem;
+    }
+    /* .foter{
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+      } */
+    .copyright {
+      color: white;
+      text-align: center;
+      padding-bottom: 5rem;
+      padding-top: 4rem;
+    }
+  }
+  
+@media (width <= 480px){
+   .footer{
+  
+    margin-top: 11rem;
+    min-width: 24rem;
+    }
+    
+}

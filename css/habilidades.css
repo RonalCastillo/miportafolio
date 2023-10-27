@@ -1,0 +1,156 @@
+.contenedor__habilidades {
+  max-width: 100%;
+  margin: 0rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  margin-top: -3rem;
+
+
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/skill.png);
+  background: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/skill.png);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.habilidades__grid {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  column-gap: 5rem;
+  margin: 1rem 3rem 0rem 3rem;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.habilidades img{
+height: 50%;
+}
+.habilidades__titulo {
+ 
+  margin-top: -0.5rem;
+}
+/*global*/
+.habilidades__titulo h2 {
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 0.4s ease 0s;
+  font-size: 4rem;
+}
+
+/*texto debajo de los icono de cada habilidad*/
+.habilidades__informacion p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*tablet*/
+
+@media (width>= 481px) and (width<= 768px) {
+  .contenedor__habilidades {
+    padding-top: 2.5rem;
+  }
+  .habilidades__titulo {
+    margin-top: -2rem;
+  }
+  .habilidades__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    width: 90%;
+    gap: 1rem;
+    padding-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .habilidades{
+    margin: 1rem;
+ width: 8rem;
+ 
+  }
+
+
+  .habilidades picture{
+  width: 50%;
+  
+ 
+  /* Puedes usar max-height en lugar de height para que la imagen no se estire */
+ 
+  }
+
+  .img_hab{
+  align-content: center;
+  }
+  .habilidades__titulo h2{
+  font-size: 4rem;
+  }
+
+  .habilidades__informacion {
+    display: flex; /* Cambiar a flexbox para centrar verticalmente */
+    flex-direction: column; /* Alinear elementos en columna */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto dentro del div */
+
+  }
+
+  .habilidades__informacion p{
+  font-size: 1.5rem;
+  }
+}
+/*telefono*/
+@media (width <= 480px) {
+  .contenedor__habilidades {
+    padding-top: 1rem;
+    margin-top: -3rem;
+    min-width: 24rem;
+  }
+
+  .habilidades__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    width: 90%;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+  }
+  .habilidades {
+    margin-bottom: 1rem; /* Espacio entre las habilidades individuales */
+    width: 8rem;
+    height: 12rem;
+  }
+
+  .habilidades__informacion {
+    text-align: center; /* Centrar el texto en dispositivos pequeños */
+  }
+  .habilidades__informacion p{
+  font-size: 1.5rem;
+  }
+  .habilidades__titulo {
+    display: flex;
+    width: 90%;
+    padding: 0rem;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+  .habilidades__titulo h2 {
+    font-size: 4rem;
+  }
+  .icon {
+    width: 100px; /* Ajustamos el tamaño de la imagen */
+    height: auto; /* Mantenemos la proporción de la imagen */
+  }
+
+}

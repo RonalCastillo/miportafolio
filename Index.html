@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronal Castillo</title>
+
+
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/_globales.css" />
+    <link rel="stylesheet" href="/css/_normalize.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/proyectos.css" />
+    <link rel="stylesheet" href="/css/contacto.css" />
+    <link rel="stylesheet" href="/css/formacion.css" />
+    <link rel="stylesheet" href="/css/sobremi.css" />
+    <link rel="stylesheet" href="/css/habilidades.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+
+    <link rel="stylesheet" href="/css/navegacion.css">
+
+  </head>
+
+  <body>
+    <header class="header inicio">  
+      <nav class="nav">
+        <ul class="menu">
+          <li class="logo"><a class="lg logo_nav" href="#">Ronal Castillo</a></li>
+          <li class="item"><a class="button btn_nav"  href="#sobremi">Sobre Mi</a></li>
+          <li class="item"><a class="button btn_nav" href="#proyectos">Proyectos</a></li>
+          <li class="item"><a class="button btn_nav" href="#estudios">Estudios</a></li>
+          <li class="item"><a class="button btn_nav" href="#habilidades">Habilidades</a></li>
+          <li class="item"><a class="button btn_nav" href="#contacto">Contacto</a></li>
+          <li class="item"><a class="button btn_nav">
+            <div class="toggle-container">
+             
+              <label class="switch">
+                <input type="checkbox" id="themeSwitcher">
+                <span class="slider round"></span>
+              </label>
+           
+          </div></a> </a></li>
+             
+        </li>
+        <li class="toggle"><a href="#"><i class="fa fa-bars"></i></a></li>
+        </ul>
+     
+     </nav>
+
+    <div class="video">
+
+      <div class="overlay">
+        <div class="contenido__video">
+        
+       
+           
+            <h3 class="h3">Hola, Soy <hr class="hr"></h3>
+           
+            <div class="text-container">
+              <span class="text primero">Ronal CL.</span>
+              <span class="text">Ronal CL.</span>
+              <span class="text">Desarrollador web.</span>
+              <span  class="text">Contactame.</span>
+            </div>
+                   
+          
+     
+       
+     
+          </div>
+       </div>
+     
+      
+        <video autoplay muted loop>
+          <source src="/video/portada_portafolio.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+    </header>
+
+    <!--sobre mi-->
+    <section id="sobremi" class="contenedor__resumen">
+      <div class="resumen__imagen">
+        <img src="img/mifoto.jpg" alt="mi foto" loading="lazy" />
+      </div>
+
+      <div class="resumen__contenido">
+        <h2>Resumen</h2>
+        <p>
+          Soy un apasionado del desarrollo web frontend, y aunque no cuento con experiencia laboral, he estado estudiando desarrollo de Software de forma autodidacta. Mi deseo de aprender y mi responsabilidad me han llevado a seguir aprendiendo y practicando constantemente. Soy una persona dinámica y creativa, con una fuerte capacidad de adaptación. Mi iniciativa para resolver problemas y mi disposición para trabajar y aprender me impulsan a esforzarme al máximo en todo lo que hago.
+        </p>
+     
+       <a href="pdf/Ronal Castillo_cv.pdf"class="btn-cv" download="Ronal Castillo_cv.pdf">Descargar CV</a>
+
+      </div>
+
+    </section>
+
+    <!--seccion estudios inicio-->
+    <section id="estudios" class="contenedor__estudios">
+      <div class="estudios__titulo">
+        <h2>Formación</h2>
+      </div>
+
+      <div class="estudios__grid">
+        <div class="estudios">
+          <div class="cont__img">
+            <picture class="pict__img">
+              <img
+                class="img"
+                loading="lazy"
+                src="img/sise.png"
+                alt="logo 1" />
+            </picture>
+          </div>
+
+          <div class="estudios__informacion">
+            <p class="estudios__nombre">
+              Software y Sistemas     </p>
+              <span class="estudios__fecha"> Finalizado 2019 - 2022</span>
+       
+          </div>
+        </div>
+        <!--fin estudio-->
+        <div class="estudios">
+          <div class="cont__img">
+            <picture class="pict__img">
+              <img
+                class="img"
+                loading="lazy"
+                src="img/netzun.png"
+                alt="logo 1" />
+            </picture>
+          </div>
+
+          <div class="estudios__informacion">
+            <p class="estudios__nombre">
+              Desarrollo Web  </p>
+              <span class="estudios__fecha">Cursando - 2023</span>
+          
+          </div>
+        </div>
+        <!--fin estudio-->
+        <div class="estudios">
+          <div class="cont__img">
+            <picture class="pict__img">
+              <img
+                class="img"
+                loading="lazy"
+                src="img/udemy.png"
+                alt="logo 1" />
+            </picture>
+          </div>
+
+          <div class="estudios__informacion">
+            <p class="estudios__nombre">
+              Desarrollo Web Completo </p>
+              <span class="estudios__fecha">Cursando - 2023</span>
+           
+          </div>
+        </div>
+        <!--fin estudio-->
+      </div>
+    </section>
+    <!--Proyecros-->
+    <section id="proyectos" class="contenedor__proyectos">
+      <div class="proyectos__titulo">
+        <h2>Proyectos</h2>
+      </div>
+
+      <div class="proyectos__grid">
+        <div class="proyectos">
+          <img
+            src="img/festival_musica.png"
+            alt />
+          <div class="descripcion__proyectos">
+            <h3>Festival Musical</h3>
+            <p>
+              "Nuestra página web para el festival de música permite a los usuarios ver artistas, fechas y elegir clases de escenario. Usamos HTML5, JavaScript, CSS y SASS para una experiencia interactiva."
+            </p>
+            <div class="">
+                <a class="btn-demo" target='_blank' href="https://festival-rock-edm7.netlify.app"> ->Ver demo</a>
+            </div>
+          </div>
+  
+        </div>
+
+        <!--fin proyecto-->
+
+        <div class="proyectos">
+          <img
+            src="img/freelancer.PNG"
+            alt />
+          <div class="descripcion__proyectos">
+            <h3>FREELANCER RONAL CASTILLO</h3>
+            <p>
+              Actualmente, nuestro sitio web se centra en el frontend y ofrece una navegación fluida a través de sus diferentes secciones
+            </p>
+            <div class="">
+              <a class="btn-demo" target='_blank'
+                href="https://proyecto-freelancerrcl.netlify.app"> ->Ver demo</a>
+            </div>
+          </div>
+        </div>
+        <!--fin proyecto-->
+        <div class="proyectos">
+          <img
+            src="img/blog_de_cafe.png"
+            alt />
+          <div class="descripcion__proyectos">
+            <h3>Blog de Cafe</h3>
+            <p>
+              Actualmente, nuestro sitio web se enfoca principalmente en el front-end nuestro sitio web ofrece a los usuarios una variedad de recetas y cursos de café. 
+            </p>
+            <div class="">
+              <a class="btn-demo" target='_blank' href="https://blogde-cafe007.netlify.app"> ->Ver demo</a>
+            </div>
+          </div>
+        </div>
+        <!--fin proyecto-->
+        <div class="proyectos">
+          <img
+            src="img/store.png"
+            alt />
+          <div class="descripcion__proyectos">
+            <h3>front-End Store</h3>
+            <p>
+              Nuestro sitio web permite a la visualizacion de algunos productos y su informacion. Usamos HTML5, CSS y SASS para una experiencia interactiva.
+            </p>
+            <div class="">
+              <a class="btn-demo" target='_blank' href="https://front-store007.netlify.app"> ->Ver demo</a>
+            </div>
+          </div>
+        </div>
+        <!--fin proyecto-->
+      </div>
+    </section>
+
+    <section id="habilidades" class="contenedor__habilidades">
+      <div class="habilidades__titulo">
+        <h2>Habilidades</h2>
+      </div>
+      <div class="habilidades__grid">
+        <div class="habilidades">
+          <picture>
+            <source class srcset="img/html.avif" type="image/avif" />
+            <source class srcset="img/html.webp" type="image/webp" />
+            <img
+              class="img_hab"
+              loading="lazy"
+              width="200"
+              height="300"
+              src="img/html.png"
+              alt="imagen habilidades" />
+          </picture>
+
+          <div class="habilidades__informacion">
+            <p class="habilidades__nombre">
+              HTML
+            </p>
+          </div>
+        </div>
+        <!--fin habilidad-->
+
+        <div class="habilidades">
+          <picture>
+            <source class srcset="img/css.avif" type="image/avif" />
+            <source class srcset="img/css.webp" type="image/webp" />
+            <img
+              class
+              loading="lazy"
+              width="200"
+              height="300"
+              src="img/css.png"
+              alt="imagen habilidades" />
+          </picture>
+
+          <div class="habilidades__informacion">
+            <p class="habilidades__nombre">
+              CSS3
+            </p>
+          </div>
+        </div>
+        <!--fin habilidad-->
+        <div class="habilidades">
+          <picture>
+            <source class srcset="img/js.avif" type="image/avif" />
+            <source class srcset="img/js.webp" type="image/webp" />
+            <img
+              class
+              loading="lazy"
+              width="200"
+              height="300"
+              src="img/js.png"
+              alt="imagen habilidades" />
+          </picture>
+
+          <div class="habilidades__informacion">
+            <p class="habilidades__nombre">
+              javaScript
+            </p>
+          </div>
+        </div>
+        <!--fin habilidad-->
+        <div class="habilidades">
+          <picture>
+            <source class srcset="img/sass.avif" type="image/avif" />
+            <source class srcset="img/sass.webp" type="image/webp" />
+            <img
+              class
+              loading="lazy"
+              width="200"
+              height="300"
+              src="img/sass.png"
+              alt="imagen habilidades" />
+          </picture>
+
+          <div class="habilidades__informacion">
+            <p class="habilidades__nombre">
+              SASS
+            </p>
+          </div>
+        </div>
+        <!--fin habilidad-->
+        <div class="habilidades">
+          <picture>
+            <!-- <source class srcset="img/css.avif" type="image/avif" />
+            <source class srcset="img/css.webp" type="image/webp" /> -->
+            <img
+              class
+              loading="lazy"
+              width="200"
+              height="300"
+              src="img/mysql.png"
+              alt="imagen habilidades" />
+          </picture>
+
+          <div class="habilidades__informacion">
+            <p class="habilidades__nombre">
+             Mysql
+            </p>
+          </div>
+        </div>
+        <!--fin habilidad-->
+      </div>
+    </section>
+
+    <section id="contacto" class="contenedor__contacto">
+      <div class="contacto">
+        <h1 class="contact">Contacto</h1>
+        <div class="social">
+          <a href="https://github.com/RonalCastillo" target='_blank'><i
+              class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="#" target='_blank'><i class="fa fa-facebook"
+              aria-hidden="true"></i></a>
+          <a
+            href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Br3W54%2BQPSumCeY38EAuQJA%3D%3D"
+            target='_blank'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- Boton hacia arriba -->
+    <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-arrow-up fa-stack-1x fa-inverse" ></i>
+
+      </span>
+    </a>
+    <a target="_blank"
+      href="https://wa.me/51968104401/?text=Me%20gusta%20tu%20portafolio">
+      <span class="icon_whatsapp">
+        <i class="fa fa-whatsapp"></i>
+      </span>
+
+    </a>
+
+
+    <footer class="footer">
+      <div class="contenedor-footer">
+        <nav class="navegacion__foter">
+          <a href="#sobremi">Sobre Mi</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#estudios">Estudios</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+      <p class="copyright">Todos los derechos reservados 2023 &copy;</p>
+    </footer>
+
+    <script src="https://use.fontawesome.com/1a20121470.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/app.js"></script>
+  
+
+  </body>
+</html>

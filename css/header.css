@@ -1,0 +1,116 @@
+
+/*navegacion*/
+.dark__mode .slider{
+background-color: #fff;
+}
+.dark__mode .dark{
+
+background-color: #ffffff; /*el icono a pasa a color blanco */
+}
+
+.dark__mode .contenedor__resumen {
+  background-color: rgb(40, 37, 37);
+}
+.dark__mode .btn-cv:hover{
+  background-color: rgb(54, 53, 59);
+  color: rgb(255, 255, 255);
+}
+.dark__mode .btn-demo:hover{
+  background-color: #36353b;
+  color: rgb(255, 255, 255);
+}
+.dark__mode .contenedor__resumen p {
+  color: rgb(155, 154, 156);
+ 
+}
+
+.dark__mode .contenedor__resumen .resumen__contenido h2 {
+  color: #fff;
+ 
+}
+
+/*estudios*/
+
+.dark__mode .contenedor__estudios {
+  background-color: #282525;
+}
+.dark__mode .contenedor__estudios .estudios__grid .estudios__informacion p {
+  color: #fff;
+
+}
+
+.dark__mode .contenedor__estudios .estudios__grid .estudios__informacion span {
+  color: #9b9a9c;
+ 
+}
+
+
+.dark__mode .contenedor__estudios .estudios__titulo h2 {
+  color: #fff;
+ 
+}
+.dark__mode .contenedor__estudios .estudios {
+ 
+  background: #36353b;
+
+  
+}
+
+/*proyectos*/
+.dark__mode .contenedor__proyectos{
+  
+/* 
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/fondo_poyectos.png);
+    background: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/fondo_poyectos.png);
+    background-position: 50%;
+    background-size: cover; */
+    background-color: #282525;
+}
+.dark__mode .contenedor__proyectos .proyectos__titulo h2 {
+  color: #fff;
+
+}
+
+.dark__mode .contenedor__proyectos .proyectos__grid .proyectos img{
+opacity: 1;/*la imagen toma su color natural*/
+}
+/*habilidades*/
+
+.dark__mode .contenedor__habilidades .habilidades__titulo h2 {
+  color: #fff;
+
+ 
+}
+
+.dark__mode .contenedor__habilidades .habilidades__grid .habilidades p{
+color: #fff;
+
+}
+
+/*contacto*/
+
+.dark__mode .contenedor__contacto .contacto{
+  background-color: #282525;
+}
+
+.dark__mode .contenedor__contacto .contacto h1{
+  color: #fff;
+
+}
+.dark__mode .contenedor__contacto .contacto p{
+  color: #fff;
+
+}
+
+.dark__mode .contenedor__contacto .contacto a{
+
+  
+  border: 1px solid rgb(0, 215, 195);
+
+}
+.dark__mode .contenedor__contacto .contacto .fa{
+color: #9b9a9c;
+
+}
+
+

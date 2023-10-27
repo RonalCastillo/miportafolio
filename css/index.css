@@ -1,0 +1,223 @@
+/*header*/
+
+.no-webp .inicio {
+  background-image: url(../video/portada_portafolio.mp4);
+}
+
+.webp .inicio {
+  background-image: url(../video/portada_portafolio.mp4);
+}
+.header {
+  background-color: cadetblue;
+  margin: 0rem;
+}
+.header .inicio {
+  background-position: center center;
+  background-size: cover;
+}
+
+.inicio {
+  min-height: 60rem;
+}
+
+/*texto sobre video*/
+
+.contenido__video {
+  /* From https://css.glass */
+  /* background: rgba(112, 98, 98, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px); */
+  z-index: 0;
+  width: 93%;
+  height: auto;
+  margin-left: 20px;
+}
+
+/*animacion */
+.hr {
+  width: 16rem;
+
+}
+.h3 {
+  text-align: start;
+  color: #ccc;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin-left: 2rem;
+
+}
+.primero {
+  display: none; /*esto debido a que el primer span en la 
+segunda reiniciacion de la animacion aparece en otra ubicacion
+*/
+}
+.text-container .text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+  -webkit-transition: opacity 1s ease, transform 1s ease;
+  -moz-transition: opacity 1s ease, transform 1s ease;
+  -ms-transition: opacity 1s ease, transform 1s ease;
+  -o-transition: opacity 1s ease, transform 1s ease;
+}
+.text {
+  text-align: end;
+  color: rgb(0, 215, 195);
+  margin-left: 2rem;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 3.6rem;
+  letter-spacing: 0.027rem;
+  white-space: nowrap;
+}
+
+/*video*/
+.video {
+  position: relative;
+  /* max-height: 70rem;
+  min-height: 49rem; */
+  overflow: hidden;
+
+  height: 60rem;
+}
+
+.video .overlay {
+  position: absolute;
+  /* background: rgb(126, 2, 195);
+  background: linear-gradient(270deg, rgba(126, 2, 195, 0.5) 0%, rgba(255, 0, 110, 0.3) 100%);
+   */
+  background-color: rgba(43, 42, 47, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.contenido-video {
+  z-index: 10;
+}
+
+.contenido-video h2 {
+  color: white;
+  font-size: 7rem;
+  margin: 0;
+}
+
+.contenido-video p {
+  background-color: rosybrown;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 0;
+}
+/*gobales*/
+h2 {
+  text-transform: uppercase;
+}
+
+@media (width>= 481px) and (width<= 768px) {
+  .header.inicio {
+    display: grid;
+  }
+  .inicio {
+    min-height: auto; /* Ajustar según tus necesidades */
+    height: 60%;
+  }
+  .video {
+    position: relative;
+    overflow: hidden;
+    height: 50rem;
+  }
+
+  .name h3 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: start;
+  }
+  .name span {
+    color: aliceblue;
+    margin: 0rem 2rem 2rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+@media (width <= 480px) {
+  .header.inicio {
+    display: grid;
+  }
+  .inicio {
+    min-height: 40rem;
+    /*min-width: 30rem;*/ /*cuando la pantalla es minima se pierde la navegacion y desde qui se puede ajustar */
+    height: 40%;
+    min-width: 24rem;
+  }
+  .video {
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    height: 35rem;
+  }
+  .video video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  /*texto sobre video*/
+  .contenido__video {
+   
+   
+    margin-bottom: 2rem;
+    z-index: 0;
+    width: 93%;
+    height: auto;
+    margin-left: 1rem;
+  }
+
+  .video .overlay {
+    position: absolute;
+    /* background: rgb(126, 2, 195);
+        background: linear-gradient(270deg, rgba(126, 2, 195, 0.5) 0%, rgba(255, 0, 110, 0.3) 100%);
+         */
+    background-color: rgba(43, 42, 47, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .hr {
+    width: 7rem;
+  }
+ 
+  .h3 {
+    text-align: start;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  .text {
+    font-size: 1.7em;
+    margin-right: 1rem ;
+  }
+}
+.fa-inverse {
+  
+}
